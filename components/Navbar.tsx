@@ -21,7 +21,7 @@ const Navbar = async () => {
                                 async () => {
                                     "use server"; await signOut()
                                 }}>
-                                <Button type='submit'>
+                                <Button type='submit' className='bg-yellow-400 border-black border-[3px] hover:bg-black hover:text-yellow-400'>
                                     <span>Log Out</span>
                                 </Button>
                             </form>
